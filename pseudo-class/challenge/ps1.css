@@ -1,0 +1,33 @@
+div{
+    margin: 10px;
+  }
+  input:enabled{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgb(87, 172, 229);
+    margin-left: 5px;
+  }
+  input:disabled {
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    margin-left: 5px;
+  }
+  input:required{
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: rgb(87, 172, 229);
+    margin-left: 5px;
+  }
+  #disabledButton{
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    color: gray;
+    background-color: white;
+    margin-right: 20px;
+  }
+  #enabledButton{
+    border: 2px solid black;
+    border-radius: 4px;
+    color: black;
+    background-color: rgb(87, 172, 229);
+  }

@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+}
+a:link{
+color:darkcyan;
+}
+a:visited
+{
+color:purple;
+}
+a:hover{
+    background-color: darksalmon;
+}
+a:active{
+    color:aliceblue;
+    background-color: yellow;
+}
+

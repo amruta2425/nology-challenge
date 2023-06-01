@@ -1,0 +1,65 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid black;
+} 
+
+main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+} 
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+#skyBlue{
+    background-color: skyblue;
+}
+#red {
+    background-color: rgb(203, 101, 101);
+}
+#green {
+    background-color: lightgreen;
+}
+#orange {
+    background-color: rgb(232, 116, 77);
+}
+#pink {
+    background-color: pink;
+}
+#grey {
+    background-color: rgb(174, 174, 174);
+}
+#lightBlue {
+    background-color: lightblue;
+}
+#blue {
+    background-color: rgb(116, 186, 240);
+}
+
+p{
+    font-weight: bold;
+}

@@ -1,0 +1,32 @@
+div{
+    
+        border:3px solid black;    
+}
+
+h1{
+    color:blue;
+}
+
+h3{
+    text-decoration: underline;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div ~ p{
+
+    color:brown;
+}
+div + p {
+
+  color:coral;  
+}
+ul{
+    list-style-type: none;
+}
+
+h4{
+    text-decoration: underline;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif;
+}

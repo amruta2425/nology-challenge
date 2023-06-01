@@ -1,0 +1,21 @@
+p {
+    margin-left:30px;
+}
+h1 + p{
+    font-style:italic;
+    color:darkgray;
+}
+h1 + p + p {
+    
+    color:black;
+}
+
+ div > p{
+    text-decoration: underline;
+}
+h3 ~ p{
+     color:blue;
+}
+h3 + p {
+    color:black;
+}

@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 300px;
+    flex-wrap: wrap;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+    height:75%;
+}
+
+#blueCard {
+    background-color: paleturquoise;
+}
+#orangeCard {
+    background-color: orange;
+}
+#pinkCard {
+    background-color: palevioletred;
+}
+
+p {
+    font-family: Arial;
+    font-size: smaller;
+}

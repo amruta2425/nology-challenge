@@ -1,0 +1,52 @@
+p {
+    font-size: small;
+}
+
+.first-header-box {
+    font-family: Arial;
+    border: 3px dashed green;
+    .blue-line-through {
+        color: blue;
+        text-decoration: line-through;
+    }
+}
+
+.center-box {
+    font-family: Arial;
+    border: 2px solid coral;
+    margin-bottom: 50px;
+    h2 {
+        text-align: center;
+    }
+    .blue-right {
+        color: blue;
+        text-decoration: line-through;
+        text-align: right;
+    }
+}
+
+.blue-arial-box {
+    font-family: Arial;
+    border: 2px solid black;
+    h2 {
+        color: blue;
+    }
+    p {
+        color: red;
+        text-decoration: underline;
+    }
+    ul {
+        list-style: none;
+        font-family: 'Times New Roman';
+        font-size: small;
+    }
+}
+
+.coral-bold {
+    color: coral;
+    font-weight: bold;
+}
+
+.brown {
+    color: brown;
+}

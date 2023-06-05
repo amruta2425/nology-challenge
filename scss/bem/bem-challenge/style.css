@@ -1,0 +1,58 @@
+.firstHeader {
+  border: 4px dotted green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.firstHeader .blue-line {
+  text-decoration: line-through;
+  color: blue;
+}
+
+.center {
+  border: 4px solid red;
+}
+.center h1 {
+  text-align: center;
+}
+.center .blue-right {
+  color: blue;
+  text-decoration: line-through;
+  text-align: right;
+}
+
+.Third-Box {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid black;
+}
+.Third-Box h1 {
+  color: blue;
+}
+.Third-Box p {
+  color: red;
+  text-decoration: underline;
+}
+.Third-Box ul {
+  list-style: none;
+}
+
+.Fourth-Box {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 3px solid black;
+}
+.Fourth-Box h1 {
+  color: blue;
+}
+.Fourth-Box p {
+  color: red;
+  text-decoration: underline;
+}
+.Fourth-Box ul {
+  list-style: none;
+}
+
+.coral-code {
+  color: coral;
+}
+
+.brown {
+  color: brown;
+}/*# sourceMappingURL=style.css.map */

@@ -101,10 +101,10 @@ function createShoppingList(items) {
   /* ## Loop through an array backwards
 Console.log() every element from the array */
 
-const myDogs = ["sydney" , "melbourne" , "adelaide" , "tsamania"];
+const myCity = ["sydney" , "melbourne" , "adelaide" , "tsamania"];
 
-for(let i = myDogs.length - 1 ; i >= 0 ; i--) {
-    console.log(myDogs[i]);
+for(let i = myCity.length - 1 ; i >= 0 ; i--) {
+    console.log(myCity[i]);
 }
   
 

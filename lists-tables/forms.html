@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+</head>
+<body>
+    <h2>Register Form</h2>
+    <form><div>
+        <label for="UsernameInput">Full Name:</label>
+        
+        <input id="text" placeholder="Full Name" required/>
+<div>
+        <label for="Age">Age:</label>
+        <input id="text" placeholder="Age" required/>
+    </div>
+
+        
+<div>
+    <label for="States">States</label>
+    <select>
+        <option>New South Wales</option>
+        <option>Queensland</option>
+        <option>South Australia</option>
+        <option>Western Australia</option>
+        <option>Victoria</option>
+        <option>Tasmania</option>
+    </select>
+</div>
+<div>
+    <label for="EmailInput">Email:</label>
+    <input id="EmailInput" placeholder="Email" required/>
+</div>
+
+<div>
+    <label for="Telephone">Telephone:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"required>
+</div>
+
+<div>
+    <label for="Message">Message:</label>
+    <input id="Message" type="Message" required/>
+
+</div>
+
+<div>
+
+    <button type="Submit">Submit</button>
+</div>
+
+    </form>
+    
+</body>
+</html>

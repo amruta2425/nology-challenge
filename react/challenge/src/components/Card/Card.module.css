@@ -1,0 +1,11 @@
+.card {
+  width: 300px;
+  padding: 1.5rem;
+  margin: 0.5rem;
+  border: 1px solid lightgrey;
+  border-radius: 1.5rem;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.card__img {
+  width: 100%;
+}/*# sourceMappingURL=Card.module.css.map */
